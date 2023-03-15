@@ -5,6 +5,7 @@
     align-items: center;
     background: var(--color-footer);
     flex-direction: column;
+    
     /* border: 1px solid white; */
 }
 

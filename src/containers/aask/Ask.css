@@ -1,0 +1,88 @@
+.gpt__ask {
+    padding: 2rem 6rem;
+}
+
+.gpt__ask-heading button {
+    background-color: orange;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    font-size: 28px;
+    line-height: 28px;
+    padding: 0.5rem 1rem;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.gpt__ask-heading button:hover {
+    background-color: rgba(255, 166, 0, 0.534);
+}
+
+.gpt__ask-heading p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 28px;
+    text-transform: capitalize;
+    line-height: 25px;
+    margin: 0 0.5rem;
+}
+
+.gpt__ask-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.gpt__ask-description p {
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+}
+
+.gpt__ask-description {
+    margin-bottom: 3rem;
+}
+
+.gpt__ask-form {
+    margin-top: 3rem;
+}
+
+.gpt__ask-form-text textarea{
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    font-size: 18px;
+    /* box-shadow:20px solid white; */
+    /* display: flex; */
+}
+
+.gpt__ask-form-text {
+    display: flex;
+}
+
+.gpt__ask-form-button {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.gpt__ask-form-button button {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 4rem;
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+}
+
+.gpt__ask-form-button button:hover {
+    background-color: rgba(57, 89, 130, 0.459);
+    color: white;
+}

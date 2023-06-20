@@ -30,8 +30,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt__navbar-sign">
-        <p>Sign in</p>
-        <button type='button'>Sign Up</button>
+        <p>Ask</p>
+        <button type='button'><a href="#ask">Anything!</a></button>
       </div>
       <div className="gpt__navbar-menu">
         {toggleMenu 
@@ -43,8 +43,7 @@ const Navbar = () => {
             <div className="gpt__navbar-menu_container-links">
               <Menu/>
               <div className="gpt__navbar-menu_container-links-sign">
-                <p>Sign in</p>
-                <button type='button'>Sign Up</button>
+                <p>Ask<button type='button'>Anything!</button></p>
                </div>
             </div>
           </div>

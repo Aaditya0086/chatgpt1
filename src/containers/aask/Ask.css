@@ -86,3 +86,16 @@
     background-color: rgba(57, 89, 130, 0.459);
     color: white;
 }
+
+.gpt__ask-form-text2 textarea{
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 3rem;
+}
+
+/* .gpt__ask-form-text {
+    display: flex;
+    margin-top: 2rem;
+} */
